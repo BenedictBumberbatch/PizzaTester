@@ -1,0 +1,14 @@
+public class PizzaTester extends ConsoleProgram
+{
+    public void run()
+    {
+        Pizza one = new Pizza("Cheesy bread","Sausage","XL");
+        System.out.println(one);
+        
+        Pizza two = new Pizza("Thin crust","Pepperoni","M");
+        System.out.println(two);
+        
+        Pizza three = new Pizza("Deep-dish","Bell Peppers","SM");
+        System.out.println(three);
+    }
+}
